@@ -1,6 +1,4 @@
-# Trabajo Final de Grado
-
-# Ana Martinez Montañez
+# Trabajo Final de Grado - Ana Martinez Montañez
 
 Grado en Ingeniería Informática
 

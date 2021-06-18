@@ -1,6 +1,6 @@
 # Trabajo Final de Grado - Ana Martinez Montañez
 
-ProgRAmApp: Aplicación basada en Realidad Aumentada para la enseñanza de conceptos de programación en el tercer ciclo de primaria
+ProgramAR: Aplicación basada en Realidad Aumentada para la enseñanza de conceptos de programación en el tercer ciclo de primaria
 
 Grado en Ingeniería Informática
 

@@ -241,7 +241,7 @@ function firstQuestionSolved(lamp: AnimatedItem){
 }
 
 function secondQuestionSide1(){
-    guide1.speech = "Pregunta 2";
+    guide1.speech = "Pregunta 2: ¿3 + 3 son 5?";
     lamp2.input.onClick(changeLampToNewColor.bind(this, lamp2));
     guide1.input.onClick(secondQuestionSolved.bind(this, lamp2));
 }
@@ -281,7 +281,7 @@ function thirdQuestionSolved(lamp: AnimatedItem){
 }
 
 function fourthQuestionSide1(){
-    guide1.speech = "Pregunta 4";
+    guide1.speech = "Pregunta 4: ¿El sistema binario usa números de 0 a 2?";
     lamp4.input.onClick(changeLampToNewColor.bind(this, lamp4));
     guide1.input.onClick(fourthQuestionSolved.bind(this, lamp4));
 }
@@ -338,7 +338,7 @@ function firstStepSide2(){
 }
 
 function secondStepSide2(){
-    guide2.speech = "En informática, las variables pueden guardar números, letras/palabras y valores de Verdadero/Falso.";
+    guide2.speech = "En informática, las variables pueden guardar números, letras/palabras y valores de Verdadero/Falso. Hay que tener cuidado porque no se pueden mezclar entre sí.";
     guide2.input.onClick(thirdStepSide2);
 }
 
@@ -474,7 +474,7 @@ function fourthStepSide3(){
 }
 
 function fifthStepSide3(totalBudget: {money: number}){
-    candyTable.speech = "¿Tienes dinero suficiente para las golosinas?";
+    candyTable.speech = "¿Tienes dinero suficiente para las golosinas? Cuestan 3.50€";
     
     candyTable.input.onClick(sixthStepSide3.bind(this, totalBudget));
 }
